@@ -5,10 +5,10 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
-const Header = () =>  (
-  <div>
-    Header
-  </div>
-);
-
-export default Header;
+export default function Header(){
+  return (
+    <div>
+      Header
+    </div>
+  );
+}
