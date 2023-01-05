@@ -2,7 +2,7 @@
 
 ## Environment to run this project:
 1. Nodejs 16.19.2
-2. NextJS 10 -> 11
+2. NextJS 11 -> 12
 3. React Version 17.0.2
 3. Breaking Changes: No
 
