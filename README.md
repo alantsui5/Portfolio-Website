@@ -6,7 +6,7 @@
 2. NextJS 12
 3. React Version 17.0.2
 
-## Change Log
+## Changelog
 ### Changes from NextJS 11 to NextJS 12
 1. Nodejs 16.19.2
 2. NextJS 11 -> 12
