@@ -1,19 +1,16 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
 
-import { Brand, Container, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
+import {  Container, Div1, Div2, Div3, Brand, BrandIcon, BrandName, NavLink, SocialIcons } from './HeaderStyles';
 
 export default function Header(){
   return (
     <Container>
       <Div1>
-        <Link href="/">
-          <Brand>
-            <DiCssdeck /> <span>Portfolio</span>
+          <Brand href="/">
+            <BrandIcon size="3rem" /> <BrandName>Portfolio</BrandName>
           </Brand>
-        </Link>
       </Div1>
       <Div2>  
         <NavLink href="#projects">
@@ -23,12 +20,8 @@ export default function Header(){
           Technologies
         </NavLink>
         <NavLink href="#about">
-          About Me
+          About
         </NavLink>
-        {/*
-
-        
-      */}
       </Div2>
       <Div3>
         <SocialIcons href="https://github.com">

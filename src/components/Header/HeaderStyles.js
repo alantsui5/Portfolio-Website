@@ -1,12 +1,10 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
-import Link from 'next/link';
 
-export const Brand = styled.div`
-  display:flex;
-  alignItems:center;
-  color:white
-`;
+import styled from 'styled-components';
+
+// Custom Library
+import { IoIosArrowDropdown } from 'react-icons/io';
+import Link from 'next/link';
+import { DiCssdeck } from 'react-icons/di';
 
 export const Container = styled.div`
   display: grid;
@@ -24,6 +22,25 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Brand = styled(Link)`
+  display:flex;
+  alignItems:center;
+  color:white;
+  line-height: 32px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 0.5rem;
+  }
+`;
+
+export const BrandIcon = styled(DiCssdeck)`
+  height: 32px;
+`
+
+export const BrandName = styled.span`
+  font-size:2rem;
+`;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -33,6 +50,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
+
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
@@ -41,6 +59,7 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
@@ -114,18 +133,16 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
 // Social Icons 
-
 export const SocialIcons = styled(Link)`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
   padding: 8px;
-&:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
-    cursor: pointer;
-    
+  &:hover {
+      background-color: #212d45;
+      transform: scale(1.2);
+      cursor: pointer;
+      
   }
 `
