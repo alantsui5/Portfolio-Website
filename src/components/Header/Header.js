@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillMediumSquare, AiFillLinkedin } from 'react-icons/ai';
 
 import {  Container, Div1, Div2, Div3, Brand, BrandIcon, BrandName, NavLink, SocialIcons } from './HeaderStyles';
 
