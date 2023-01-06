@@ -10,10 +10,10 @@ import { Section } from '../styles/GlobalComponents';
 export default function Home(){
   return (
     <Layout>
-      {/* <Section grid> */}
+      <Section grid>
         <Hero />
-        {/* <BgAnimation /> */}
-      {/* </Section> */}
+        <BgAnimation />
+      </Section>
       <Projects />
       <Technologies />
       <Timeline />
