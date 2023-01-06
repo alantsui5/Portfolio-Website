@@ -13,13 +13,13 @@ export default function Header(){
           </Brand>
       </Div1>
       <Div2>  
-        <NavLink href="#projects">
+        <NavLink href="/#projects" scroll={false}>
           Projects
         </NavLink>
-        <NavLink href="#technologies">
+        <NavLink href="/#technologies" scroll={false}>
           Technologies
         </NavLink>
-        <NavLink href="#about">
+        <NavLink href="/#about" scroll={false}>
           About
         </NavLink>
       </Div2>
