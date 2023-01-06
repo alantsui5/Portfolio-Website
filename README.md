@@ -15,6 +15,26 @@
 3. React 17.0.2 -> 18.2.0
 4. eslint-config-next 13.1.1
 5. SWR 2.0.0
+### \<Link\> Component Breaking Change
+The <Link> Component no longer requires manually adding an \<a\> tag as a child. <br />
+This behavior was added as an experimental option in version 12.2 and is now the default. <br>
+In Next.js 13, \<Link\> always renders \<a\> and allows you to forward props to the underlying tag.
+
+> For example:
+```javascript
+import Link from 'next/link'
+
+// Next.js 12: `<a>` has to be nested otherwise it's excluded
+<Link href="/about">
+  <a>About</a>
+</Link>
+
+// Next.js 13: `<Link>` always renders `<a>` under the hood
+<Link href="/about">
+  About
+</Link>
+```
+To upgrade your links to Next.js 13, you can use the new-link codemod.
 ### Changes from NextJS 11 to NextJS 12
 1. Nodejs 16.19.2
 2. NextJS 11 -> 12
