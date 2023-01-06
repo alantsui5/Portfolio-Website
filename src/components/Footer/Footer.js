@@ -6,8 +6,18 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 export default function Footer(){
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <LinkList>
+        <LinkColumn>
+          <LinkTitle>Email</LinkTitle>
+          <LinkItem href="mailto:alantsui2022@outlook.com">alantsui2022@outlook.com</LinkItem>
+        </LinkColumn>
+      </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          <Slogan>Innovating Project at a Time</Slogan>
+        </CompanyContainer>
+      </SocialIconsContainer>
+    </FooterWrapper>
   );
 }
