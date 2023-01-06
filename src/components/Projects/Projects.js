@@ -12,7 +12,7 @@ export default function Projects(){
       <SectionDivider />
       <SectionTitle main>Projects</SectionTitle>
       <GridContainer>
-        {projects.map(({id, image, title, description}) =>(
+        {projects.map(({id, image, title, description, tags, visit, source}) =>(
           <BlogCard key={id}>
             <Img src={image}/>
             <TitleContent>
@@ -24,11 +24,11 @@ export default function Projects(){
             </CardInfo>
             <div>
               <TitleContent>Stack</TitleContent>
-              <tagList>
+              <TagList>
                 {tags.map((tag, i)=>(
                   <Tag key={i}> {tag} </Tag>
                 ))}
-              </tagList>
+              </TagList>
             </div>
             <UtilityList>
               <ExternalLinks href={visit}>Visit</ExternalLinks>
