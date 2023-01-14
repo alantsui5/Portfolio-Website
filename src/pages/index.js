@@ -14,9 +14,9 @@ export default function Home(){
         <Hero />
         <BgAnimation />
       </Section>
-    {/* <Projects /> */}
+      <Projects />
       <Technologies />
-    {/* <Timeline /> */}
+      <Timeline />
     {/* <Acomplishments /> */}
     </Layout>
   );
