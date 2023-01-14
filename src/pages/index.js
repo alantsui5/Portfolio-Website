@@ -14,10 +14,10 @@ export default function Home(){
         <Hero />
         <BgAnimation />
       </Section>
-      <Projects />
+    {/* <Projects /> */}
       <Technologies />
-      <Timeline />
-      <Acomplishments />
+    {/* <Timeline /> */}
+    {/* <Acomplishments /> */}
     </Layout>
   );
 };
