@@ -54,6 +54,33 @@ export const projects = [
   },*/
 ];
 
+const commerseProjects = [
+  {
+    title: 'Promotion Website Dashboard',
+    description: "",
+    image: '/images/1.png',
+    tags: ['Vue', 'ERP', 'Spring Boot API'],
+    id: 0,
+  },
+  {
+    title: 'Messaging System Upgrade',
+    description: "",
+    image: '/images/1.png',
+    tags: ['Vue', 'ERP', 'Spring Boot API', 'Mail Server']
+  },
+  {
+    title: 'CRP',
+    description:'',
+    image: '/images/1.png',
+    tags: ['Spring Boot API', 'Documentation', 'ERP']
+  },
+  {
+    title: 'Tax Loan Report Generation',
+    description: '',
+    image: '',
+    tags: ['Python', 'Metabase', 'Elastic Search', "LogStash", "Click House"]
+  }
+]
 
 export const TimeLineData = [
   { year: 2017, text: 'Study as a computer engineer in Chinese University of Hong Kong', },
