@@ -50,37 +50,41 @@ const Timeline = () => {
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
-          {TimeLineData.map((item, index) => (
-            <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
-              <CarouselItem
-                    index={index}
-                    id={`carousel__item-${index}`}
-                    active={activeItem}
-                    onClick={(e) => handleClick(e, index)}
-                >
-                  <CarouselItemTitle>
-                    {item.year}
-                    <CarouselItemHr />
-                  </CarouselItemTitle>
-                  <CarouselItemText>{item.text}</CarouselItemText>
-                </CarouselItem>
-            </CarouselMobileScrollNode>
+          {TimeLineData
+            .sort((a,b) => b.year - a.year)
+            .map((item, index) => (
+              <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
+                <CarouselItem
+                      index={index}
+                      id={`carousel__item-${index}`}
+                      active={activeItem}
+                      onClick={(e) => handleClick(e, index)}
+                  >
+                    <CarouselItemTitle>
+                      {item.year}
+                      <CarouselItemHr />
+                    </CarouselItemTitle>
+                    <CarouselItemText>{item.text}</CarouselItemText>
+                  </CarouselItem>
+              </CarouselMobileScrollNode>
           ))}
         </>
       </CarouselContainer>
       <CarouselButtons>
-        {TimeLineData.map((item, index) => (
-          <CarouselButton 
-            key={index}
-            index={index}
-            active={activeItem}
-            onClick={(e) => handleClick(e, index)}
-            type="button"
-          >
-            <CarouselButtonDot active={activeItem} />
-          </CarouselButton>
-        ))}
-      </CarouselButtons>
+        {TimeLineData
+          .sort((a,b) => b.year - a.year)
+          .map((item, index) => (
+            <CarouselButton 
+              key={index}
+              index={index}
+              active={activeItem}
+              onClick={(e) => handleClick(e, index)}
+              type="button"
+            >
+              <CarouselButtonDot active={activeItem} />
+            </CarouselButton>
+            ))}
+          </CarouselButtons>
     </Section>
   );
 };
