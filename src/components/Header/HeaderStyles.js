@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import { IoIosArrowDropdown } from 'react-icons/io';
 import Link from 'next/link';
 import { DiCssdeck } from 'react-icons/di';
+import { TbLetterA } from 'react-icons/tb';
 
 export const Container = styled.div`
   display: grid;
@@ -33,8 +34,12 @@ export const Brand = styled(Link)`
   }
 `;
 
-export const BrandIcon = styled(DiCssdeck)`
+export const BrandIcon = styled.div`
   height: 32px;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 3rem;
+  margin-right:5px;
+  color: yellow;
 `
 
 export const BrandName = styled.span`

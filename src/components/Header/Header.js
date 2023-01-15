@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { AiFillGithub, AiFillMediumSquare, AiFillLinkedin } from 'react-icons/ai';
-
+import { TbLetterA, TbLetterT } from 'react-icons/tb';
 import {  Container, Div1, Div2, Div3, Brand, BrandIcon, BrandName, NavLink, SocialIcons } from './HeaderStyles';
 
 export default function Header(){
@@ -9,7 +9,10 @@ export default function Header(){
     <Container>
       <Div1>
           <Brand href="/">
-            <BrandIcon size="3rem" /> <BrandName>Portfolio</BrandName>
+            <BrandIcon>
+              AT.
+            </BrandIcon>
+             <BrandName>Portfolio</BrandName>
           </Brand>
       </Div1>
       <Div2>  
