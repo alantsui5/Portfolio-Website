@@ -8,6 +8,7 @@ export const projects = [
     visit: 'https://google.com',
     id: 0,
   },
+  /*
   {
     title: "Pizza Inventory Manager",
     description: "A asp.net application for managing Pizzas",
