@@ -21,7 +21,7 @@ export const projects = [
     title: "Pizza Inventory Manager",
     description: "A asp.net application for managing Pizza inventory, includes asp.net version and .net api version",
     image: '/images/3.png',
-    tags: ["Vue", 'ASP.NET', ".NET"],
+    tags: ["Monolith", "REST API", 'ASP.NET'],
     source:'https://github.com/alantsui5/dotnetProject',
     visit: 'https://github.com/alantsui5/dotnetProject',
     id: 2,
