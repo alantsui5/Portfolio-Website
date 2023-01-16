@@ -11,7 +11,7 @@ export default function Technologies(){
       <SectionTitle>Technologies</SectionTitle>
       <SectionText>
         I've worked with a range of web technologies in the web development world.
-        From Backend to Design.
+        From Frontend to Data Analysis.
       </SectionText>
       <List>
         <ListItem>
