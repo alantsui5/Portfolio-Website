@@ -1,12 +1,21 @@
 export const projects = [
   {
-    title: 'Shoppy',
-    description: "A serverless fullstack E-Commerse Website powered Angular and Firebase",
-    image: '/images/1.png',
-    tags: ['Angular', 'GCP Firebase', 'TypeScript', 'Node'],
-    source: 'https://github.com/alantsui5/Shoppy',
-    visit: 'https://practice-f4c73.firebaseapp.com/',
+    title: "Pizza Inventory Manager",
+    description: "A asp.net application for managing Pizza inventory, includes asp.net version and .net api version",
+    image: '/images/3.png',
+    tags: ['ASP.NET 6', 'Monolith', 'REST API', ],
+    source:'https://github.com/alantsui5/dotnetProject',
+    visit: 'https://github.com/alantsui5/dotnetProject',
     id: 0,
+  },
+  {
+    title: "Express TypeScript JWT Project",
+    description: "",
+    image: '/images/expressTS-1.png',
+    tags: ["NodeJS 8", "JWT", 'Express', "TypeScript", "ORM", "Postgres"],
+    source:'https://github.com/alantsui5/express-template',
+    visit: 'https://github.com/alantsui5/express-template',
+    id: 1,
   },
   {
     title: "Java Spring Project Lab",
@@ -15,16 +24,16 @@ export const projects = [
     tags: ["Java", "Spring Boot"],
     source: 'https://github.com/alantsui5/javaProjects/',
     visit: 'https://github.com/alantsui5/javaProjects/',
-    id: 1,
+    id: 2,
   },
   {
-    title: "Pizza Inventory Manager",
-    description: "A asp.net application for managing Pizza inventory, includes asp.net version and .net api version",
-    image: '/images/3.png',
-    tags: ["Monolith", "REST API", 'ASP.NET'],
-    source:'https://github.com/alantsui5/dotnetProject',
-    visit: 'https://github.com/alantsui5/dotnetProject',
-    id: 2,
+    title: 'Shoppy',
+    description: "A serverless fullstack E-Commerse Website powered Angular and Firebase",
+    image: '/images/1.png',
+    tags: ['Angular', 'GCP Firebase', 'TypeScript', 'Node'],
+    source: 'https://github.com/alantsui5/Shoppy',
+    visit: 'https://practice-f4c73.firebaseapp.com/',
+    id: 3,
   },
   {
     title: "Cat Sheet Blog V2.0",
@@ -33,7 +42,7 @@ export const projects = [
     tags: ["Go", "Hugo", "JavaScript"],
     source:'https://github.com/alantsui5/CatSheet',
     visit: 'https://cat-sheet.netlify.app/',
-    id: 3,
+    id: 4,
   }
   /*
   {
