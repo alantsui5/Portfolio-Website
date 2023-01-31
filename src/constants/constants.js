@@ -12,7 +12,7 @@ export const projects = [
     title: "Express TypeScript JWT Project",
     description: "Provide a light TypeScript implementation on JWT",
     image: '/images/expressts-1.png',
-    tags: ["NodeJS 8", "TypeScript", "JWT", 'Express',  "TypeORM", "Postgres"],
+    tags: ["NodeJS8", 'ExpressTS', "JWT", "TypeORM", "Postgres"],
     source:'https://github.com/alantsui5/express-template',
     visit: 'https://github.com/alantsui5/express-template',
     id: 1,
