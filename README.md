@@ -1,5 +1,5 @@
 ## Personal Portfolio
-![Portfolio Website](https://i.ibb.co/WgPMpts/image.png)
+![image](https://user-images.githubusercontent.com/33037271/215802614-e4822551-3e01-48dd-9175-1751bf7f6611.png)
 
 ## Current Environment
 1. Nodejs 16.19.0 -> 18.12.1 (LTS)
