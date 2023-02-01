@@ -1,5 +1,6 @@
-## Personal Portfolio
+# Personal Portfolio
 ![image](https://user-images.githubusercontent.com/33037271/215802614-e4822551-3e01-48dd-9175-1751bf7f6611.png)
+This Portfolio showcase my project done and some contact links. This is built with Vercel, React and NextJS and styled components.
 
 ## Current Environment
 1. Nodejs 16.19.0 -> 18.12.1 (LTS)
